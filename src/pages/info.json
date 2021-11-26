@@ -1,0 +1,37 @@
+[{
+    "id":1,
+    "fullname":"Vanshika Rastogi",
+    "email":"vanshikarastogi@gmail.com",
+    "mobile":"9897675453",
+    "address":"Meerut"
+},
+
+{
+    "id":2,
+    "fullname":"Krati Gupta",
+    "email":"kratigupta@gmail.com",
+    "mobile":"9897675453",
+    "address":"Kanpur"
+},
+{
+    "id":3,
+    "fullname":"Akshara Purwar",
+    "email":"aksharapurwar@gmail.com",
+    "mobile":"9897675453",
+    "address":"Lucknow"
+},
+{
+    "id":4,
+    "fullname":"Nishu Tyagi",
+    "email":"nishutyagi@gmail.com",
+    "mobile":"9897675453",
+    "address":"Ghaziabad"
+},
+{
+    "id":5,
+    "fullname":"Tulika sharma",
+    "email":"tulikasharma@gmail.com",
+    "mobile":"9897675453",
+    "address":"Moradabad"
+}
+]

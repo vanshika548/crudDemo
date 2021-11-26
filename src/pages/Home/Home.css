@@ -1,0 +1,53 @@
+.outerContainer{
+    margin-top: 80px !important;
+}
+.userList{
+    height: 50px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+ .fname{
+    margin-left: 20px;
+}
+.lname{
+    margin-left: 170px;
+    
+}
+.email{
+    margin-left: 170px;
+    
+}
+.number{
+    margin-left: 170px;
+   
+} 
+.btns{
+    margin-left: 830px;
+    margin-top: -30px;
+}
+.edit{
+    color: white !important;
+    background: black !important;
+    text-decoration: none !important;
+    padding-left: 15px !important;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 6px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.delete{
+    color: white !important;
+    background: red !important;
+    
+}
