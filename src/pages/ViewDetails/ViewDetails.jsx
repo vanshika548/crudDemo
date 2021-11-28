@@ -9,13 +9,14 @@ import NavBar from '../../src/components/NavBar/NavBar';
 
 function ViewDetails() {
     const[details,setDetails]=useState(data);
+    const[editId,setEditId]=useState(null);
     const[info,setInfo]=useState({
         fullname:'',
         email:'',
         mobile:'',
         address:''
     });
-    const[editId,setEditId]=useState(null);
+    
     const[editFormData,setEditFormData]=useState({
         fullname:'',
         email:'',
@@ -92,7 +93,7 @@ function ViewDetails() {
     return (
         <div>
             <NavBar/>
-            <form >
+            <form onSubmit={handleEditFormSubmit}>
             <table className="table">
                 <thead>
                     <tr>
@@ -129,4 +130,4 @@ function ViewDetails() {
     )
 }
 
-export default ViewDetails
+export default ViewDetails;
