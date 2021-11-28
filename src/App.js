@@ -1,10 +1,10 @@
 
 import './App.css';
-import AddUser from '../src/pages/AddUser/AddUser.jsx'
+
 import Home from '../src/pages/Home/Home';
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
-import ViewDetails from '../src/ViewDetails/ViewDetails.jsx'
-import EmployeeForm from '../src/pages/form/EmployeeForm'
+import ViewDetails from '../src/pages/ViewDetails/ViewDetails.jsx'
+
 
 function App() {
   return (

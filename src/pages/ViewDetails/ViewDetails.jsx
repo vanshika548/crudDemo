@@ -1,11 +1,11 @@
 import React,{useState,Fragment} from 'react';
-import data from '../pages/info.json'
-import ReadOnly from '../../src/components/ReadOnly/ReadOnly';
-import Edit from '../../src/components/Edit/Edit'
-import '../../src/ViewDetails/ViewDetails.css'
+import data from '../../pages/info.json'
+import ReadOnly from '../../components/ReadOnly/ReadOnly.jsx';
+import Edit from '../../components/Edit/Edit.jsx'
+import '../ViewDetails/ViewDetails.css'
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import NavBar from '../../src/components/NavBar/NavBar';
+import NavBar from '../../components/NavBar/NavBar.jsx';
 
 function ViewDetails() {
     const[details,setDetails]=useState(data);
@@ -115,7 +115,7 @@ function ViewDetails() {
             </table>
             </form>
             <h2>Add User</h2>
-            <form >
+            <form onSubmit={onsubmit}>
                 <div className="enterData">
                 <TextField type="text" name="fullname" placeholder="enter name" onChange={onchange} sx={{mb:1}}/>
                 <TextField type="text" name="email" placeholder="enter email" onChange={onchange} sx={{mb:1}}/>
