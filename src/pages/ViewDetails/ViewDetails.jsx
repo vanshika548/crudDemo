@@ -107,8 +107,16 @@ function ViewDetails() {
                 <tbody>
                     {details.map((detail)=>(
                         <Fragment>
-                            {editId === detail.id? <Edit editFormData={editFormData} handleEdit={handleEdit}/> :
-                             <ReadOnly detail={detail} handleEditClick={handleEditClick} handleDeleteClick={handleDeleteClick}/> }
+                            {editId === detail.id? (
+                            <Edit 
+                            editFormData={editFormData} 
+                            handleEdit={handleEdit}
+                            /> 
+                    ) : (
+                             <ReadOnly 
+                             detail={detail} 
+                             handleEditClick={handleEditClick} 
+                    handleDeleteClick={handleDeleteClick}/> )}
                        </Fragment>
                     ))}
                 </tbody>

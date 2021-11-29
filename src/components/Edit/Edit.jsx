@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import '../Edit/Edit.css'
+import '../Edit/Edit.css';
+import TextField from '@mui/material/TextField';
 
 function Edit({editFormData,handleEdit}) {
     return (
@@ -22,7 +23,7 @@ function Edit({editFormData,handleEdit}) {
                 <input type="text" placeholder="enter address" name="address" onChange={handleEdit}
                 value={editFormData.address}/>
                 </td>
-                <td><Button type="submit">Save</Button></td>
+                <td><Button type="submit" className="save">Save</Button></td>
             </tr>
         </div>
     )
