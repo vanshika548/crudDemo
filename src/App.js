@@ -9,16 +9,9 @@ import ViewDetails from '../src/pages/ViewDetails/ViewDetails.jsx'
 function App() {
   return (
     <div className="App">
-      {/* <AddUser/> */}
-      {/* <Router>
-        <Switch>
-          <Route path="/Home" component ={Home}></Route>
-          <Route exact path="/" component ={AddUser}></Route>
-        </Switch>
-      </Router> */}
-      {/* <Home/> */}
+     
         <ViewDetails/>
-{/* <EmployeeForm/>  */}
+
     </div>
   );
 }

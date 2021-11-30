@@ -125,8 +125,21 @@ function ViewDetails() {
             <h2>Add User</h2>
             <form onSubmit={onsubmit}>
                 <div className="enterData">
-                <TextField type="text" name="fullname" placeholder="enter name" onChange={onchange} sx={{mb:1}}/>
-                <TextField type="text" name="email" placeholder="enter email" onChange={onchange} sx={{mb:1}}/>
+
+                <TextField 
+                type="text" 
+                name="fullname" 
+                placeholder="enter name" 
+                onChange={onchange} 
+                sx={{mb:1}}/>
+
+                <TextField 
+                type="text" 
+                name="email" 
+                placeholder="enter email" 
+                onChange={onchange} 
+                sx={{mb:1}}/>
+                
                 <TextField type="text" name="mobile" placeholder="enter mobile" onChange={onchange} sx={{mb:1}}/>
                 <TextField type="text" name="address" placeholder="enter address" onChange={onchange} sx={{mb:1}}/>
                 <Button type="submit" onClick={onsubmit} className="add">ADD</Button>
